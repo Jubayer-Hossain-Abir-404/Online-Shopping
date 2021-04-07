@@ -1,0 +1,91 @@
+/* CSS Document */
+
+.bg-black{
+	background-color: rgba(14,14,14,1.00);
+}
+.carousel-caption{
+	top:200px;
+}
+
+.cart{
+	float:left;
+	margin:5px 10px 0px 15px;
+	cursor:pointer;
+	height:25px;
+	padding-top:7px;
+	position:relative;
+	top:0px;
+	right:20px;
+	width:60px;
+	text-align: center;
+	z-index: 1000;
+}
+
+.cart ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	position:relative;
+	width:auto;
+	z-index:1;
+}
+
+.cart img{
+	width:30px;
+}
+
+/*..noti_cart_number{
+	background:red;
+}*/
+.icon-button{
+	display: flex;
+	width:50px;
+	height: 50px;
+	color: #333333;
+	background:#dddddd;
+	border:none;
+	outline:none;
+}
+
+.icon-button__badge{
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	width:30px;
+	height:30px;
+	background:red;
+	color: #ffffff;
+}
+
+.shopping_cart_container{
+	background: white
+	border:0.01px solid rgba(0,0,0,0.8px);
+	padding:15px;
+}
+.shopping_cart_container table img{
+	width: 80px;
+	height:60px;
+	padding: 0 5px 0 10px;
+}
+.shopping_cart_container input[type=submit],.shopping_cart_container button{
+	background:rgba(27, 175, 224, 1);
+	color:white;
+	padding:5px 10px;
+	border:0.01px solid rgba(27, 175, 224,1);
+}
+
+.shopping_cart_container input[type=submit]:hover,.shopping_cart_container button{
+  background:rgba(27, 175, 224,0.9);
+}
+
+.shopping_cart_container button a{
+	text-decoration: none; color;white;
+}
+
+#shopping_cart{
+  background: rgba(27, 224, 136,1);
+}
+
+
+
+
